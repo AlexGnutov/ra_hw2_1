@@ -1,0 +1,33 @@
+.portfolio {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.projects-list {
+    margin-top: 10px;
+    width: 800px;
+    column-count: 3;
+}
+
+.project-card {
+    margin-bottom: 10px;
+}
+.project-card-image {
+    width: 100%;
+}
+
+.toolbar-button {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.toolbar-button-selected {
+    color: antiquewhite;
+    background-color: darkgray;
+}
+
+.toolbar-button:nth-child(n+2),
+.toolbar-button-selected:nth-child(n+2) {
+    margin-left: 3px;
+}
